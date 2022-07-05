@@ -39,6 +39,27 @@ background-color: #ffff99;
     font-size: 16pt; /* Размер шрифта в пунктах */
     font-weight: bold; /* bold то же самое что и 700 */   
    }
+    html {
+    font-size: 10px;
+}
+
+.header__title {
+    font-size: 7.2rem; /* 72px */
+}
+
+.header__sub-title {
+    font-size: 4.2rem; /* 42px */
+}
+
+@media all and (max-width: 400px) {
+    html {
+        font-size: 5px;
+        /*
+           .header__title → 36px
+           .header__sub-title → 21px
+         */
+    }
+}
   </style>
   </head> 
   <body> 
