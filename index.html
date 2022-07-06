@@ -1,42 +1,53 @@
-<!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Адаптивная вёрстка сайта</title>
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic|Playfair+Display:400,700&subset=latin,cyrillic">
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
-</head>
-<body>
-    <header>
-    <nav class="container">
-      <a class="logo" href="">
-        <span>L</span>
-        <span>O</span>
-        <span>G</span>
-        <span>O</span>
-      </a>
-      <div class="nav-toggle"><span></span></div>
-      <form action="" method="get" id="searchform">
-        <input type="text" placeholder="Искать на сайте...">
-        <button type="submit"><i class="fa fa-search"></i></button>
-      </form>
-      <ul id="menu">
-        <li><a href="">Блог</a></li>
-        <li><a href="">Портфолио</a></li>
-        <li><a href="">Об авторе</a></li>
-      </ul>
-    </nav>
-  </header>
-    
-        <h1>My website</h1>
+  <!-- Site made with welcomelove, welcomelove.github.io -->
+  <html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Responsive HTML images demo</title>
+    <style>
+      html {
+        font-family: sans-serif;
+        background-color: gray;
+      }
 
+      body {
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: white;
+      }
+
+      header {
+        background: url(header.jpg) no-repeat center;
+        height: 200px;
+      }
+
+      section {
+        padding: 20px;
+      }
+
+      p {
+        line-height: 1.5;
+      }
+
+      img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+
+    </header>
+
+    <main>
+      <section>
         
-     
-         
+<h1>My website</h1>
+        
 <p>sexual assault/statutory rape/gang rape/child abuse/genocide/brutal murder/robbery/criminal assault/</p>
 <p>WARNING: Some texts detail sexual abuse.</p>
 <p>I will warn you right away, if you are pregnant or have problems with perception, it is better not to read any further.</p>
@@ -1509,26 +1520,22 @@ Ukrainian nurse told about the atrocities of the "orcs".</p>
 <p>So it will be wherever the Russian horde is!</p>
 <p>The russians, means murderers, barbarians, marauders and rapists.</p>
     
-footer>
-  <div class="container">
-    <div class="footer-col"><span>Мой блог © 2016</span></div>
-    <div class="footer-col">
-      <div class="social-bar-wrap">
-        <a title="Facebook" href="" target="_blank"><i class="fa fa-facebook"></i></a>
-        <a title="Twitter" href="" target="_blank"><i class="fa fa-twitter"></i></a>
-        <a title="Pinterest" href="" target="_blank"><i class="fa fa-pinterest"></i></a>
-        <a title="Instagram" href="" target="_blank"><i class="fa fa-instagram"></i></a>
-      </div>
-    </div>
-    <div class="footer-col">
-      <a href="mailto:admin@yoursite.ru">Написать письмо</a>
-    </div>
-  </div>
-</footer>
-<script>
-$('.nav-toggle').on('click', function(){
-$('#menu').toggleClass('active');
-});
-</script>
-</body>
-</html>
+<picture>
+          <source media="(max-width: 799px)" srcset="image txt/057-480w.jpg">
+          <source media="(min-width: 800px)" srcset="image txt/057.jpg-800w.jpg">
+          <img src="image txt/057-800w.jpg" alt="Chris standing up holding his daughter Elva">
+        </picture>
+
+        <p>Suspendisse potenti. Ut in luctus eros. Mauris pulvinar vehicula aliquet. Etiam imperdiet eleifend luctus. Duis ut justo nec eros ornare consectetur. Vestibulum convallis condimentum varius. Maecenas rutrum porta varius. Phasellus volutpat sem id sagittis luctus. Morbi vitae quam vitae nisi iaculis dignissim.</p>
+
+        <img srcset="image txt/057-480w.jpg 480w,
+                     image txt/057-800w.jpg 800w"
+             sizes="(max-width: 600px) 480px,
+                    800px"
+             src="image txt/057.jpg-800w.jpg" alt="Elva dressed as a fairy">
+
+        <p>Header image originally by <a href="image txt/057.jpg/">Miwok</a>.</p>
+      </section>
+    </main>
+  </body>
+</html>       
